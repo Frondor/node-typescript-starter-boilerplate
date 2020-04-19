@@ -7,8 +7,7 @@
     "test": "jest",
     "dev": "tsnd --inspect --respawn --transpileOnly -- src/main.ts",
     "build": "tsc --build .",
-    "start": "node dist/main",
-    "lint": "tsc --noEmit && eslint '*/**/*.{js,ts,tsx}' --quiet"
+    "start": "node dist/main"
   },
   "author": "",
   "license": "ISC",
