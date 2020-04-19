@@ -7,11 +7,10 @@ module.exports = {
     'eslint:recommended',
     'plugin:@typescript-eslint/eslint-recommended',
     'plugin:@typescript-eslint/recommended',
-    'plugin:import/recommended',
-    'google',
     'plugin:import/errors',
     'plugin:import/warnings',
     'plugin:import/typescript',
+    'google',
     'prettier/@typescript-eslint',
     'plugin:prettier/recommended',
   ],
@@ -27,5 +26,6 @@ module.exports = {
   plugins: ['@typescript-eslint'],
   rules: {
     'node/no-unsupported-features/es-syntax': 'off',
+    'require-jsdoc': 'off',
   },
 };
